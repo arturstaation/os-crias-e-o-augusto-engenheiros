@@ -1,16 +1,13 @@
-0.	Descrição – Classificação – Dependências – Esforço – relevância – Risco  
-1.	Algoritmo de relacionar perfis - RF – 8,2 – Alto – Alta – Alto  
-2.	Banco de dados com as contas – RF – 8 – Médio – Médio – Médio 
-3.	Servidor para hospedar os chats – RF – 4,8,1,15 – Baixo – Alto – Alto    
-4.	Chat – RF – 3 – Médio – Alta – Alto 
-5.	Algoritmo de dinheiro (currency) - RNF – S/D – Baixo – Média – Baixo
-6.	Algoritmo de Micro transação - RNF – 5 – Baixo – Médio – Baixo 
-7.	Algoritmo de liberar fotos de outras pessoas usando o dinheiro – RF – 5,8 – Baixo – Médio - Baixo 
-8.	Perfil e customizações. – RF – S/D – Médio – Alta – Alto      
-9.	Aba com todos os chats ativos – RF – 3 – Baixo – Alta – Alto    
-10.	o usuário poderá enviar as redes sociais pré-programadas no chat – RF – 3 – Baixo – Médio – Médio  
-11.	o usuário poderá escolher nao mostrar o rosto, optando por se revelar quando se sentir confortável – RF – 8 – Baixo – Alto – Alto 
-12.	O usuário deve ceder informações pessoais em relação a sua personalidade – RF - 8 – Baixo – Alto – Alto  
-13.	o usuário deve poder limitar o raio de distância de procura – RF – 8 – Médio – Alto – Alto 
-14.	Por questões de segurança haverá um mecanismo de validação de usuário – RF – 8 – Médio – Alto – Alto 
-15.	O Usuário terá opção de escolher com quem conversar (baseado no resultado do algoritmo) – RF – 1 – Baixo – Alto – Alto 
+Descrição – Classificação – Dependências – Esforço – relevância – Risco
+Sistema relaciona perfis – RF – 10 – Baixo – Alta - Baixo
+Usuario escolha qual perfil resultante do relacionamento feito ele quer se relacionar – RF – 4 – Baixo – Alta – Média
+Sistema tem um banco de dados para armazenar as contas – RF – 1 – Baixo - Alta - Médio
+Usuario pode comprar recursos dentro do aplicativo – RNF – 2 – Médio – Baixa - Baixo
+Usuario pode comprar dinheiro do aplicativo (currency) – RNF – 2 – Alto – Baixa - Baixo
+Usuario pode escolher gastar seu dinheiro para liberar foto de uma das pessoas que esta se relacionando – RNF – 2 – Médio – Baixa - Baixo
+Usuario pode criar perfil e personaliza-lo – RF – 8 – Alto – Alta - Baixo
+Sistema oferece uma aba com todos os chats ativos por um usuario RF – 5 – Baixo – Alta - Médio
+O usuário poderá enviar as mensagens pré-programadas no chat – RF – 3 – Baixo – Médio – Médio
+O usuário deve ceder informações pessoais em relação a sua personalidade para criar uma conta – RF - 8 – Baixo – Alto – Alto
+O usuário deve poder escolher por filtros para o sistema de relacionar perfis – RF – 8 – Médio – Alto – Alto
+Sistema exige uma validacao do usuario, para criar a conta e fazer login Por questões de segurança haverá um mecanismo de validação de usuário – RF – 8 – Médio – Alto – Alto
